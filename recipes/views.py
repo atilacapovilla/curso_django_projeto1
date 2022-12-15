@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def my_view(request):
-    return HttpResponse("<h1>Home</h1>")
+    return render(request, 'recipes/home.html')
