@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def my_view(request):
-    return render(request, 'recipes/home.html')
+def home(request):
+    return render(request, 'recipes/pages/home.html')
